@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home Page</title>
+</head>
+<body>
+
+    <!--Navigation-->
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="logo"><b>Jim Seekings</b></a>
+        <a href="future.html" class="split navbox">Future</a>
+        <a href="aircadets.html" class="split navbox">Air Cadets</a>
+        <a href="workexperience.html" class="split navbox">Work Experience</a>
+        <a href="computinglvl1.html" class="split navbox">Education</a>
+        <a href="aboutme.html" class="split navbox">About Me</a>
+        <a href="javascript:void(0);" class="icon" onclick="Menu()">
+            <i class="fa fa-bars"></i>
+            <div class="menuicon"></div>
+            <div class="menuicon"></div>
+            <div class="menuicon"></div>
+        </a> 
+    </div>
+
+    <div class="intro"> I am Jim, a highly motivated and hands-on individual with a strong interest in engineering, 
+                        maintenance, and understanding how things work. From a young age, I have enjoyed building and 
+                        designing with Lego, often creating my own moving parts and functional mechanisms — an early 
+                        sign of my inventive nature and curiosity about mechanical systems. My experience in the Air 
+                        Cadets, where I rose to the rank of Sergeant, further developed my leadership, time management, 
+                        and problem-solving skills. I am now eager to apply my creativity and practical mindset in a 
+                        Maintenance Delivery Technician Apprenticeship, where I can grow technically while contributing 
+                        to a professional, high-performing team.
+    </div>
+
+    <div class="divider"></div>
+
+    <!--Content-->
+
+    <div class="homenavboxlt">
+         <a href="aboutme.html">
+        <div class="navboxphoto">
+           <img src="Assets/OnProfileIcon.jpg">
+        </div>
+        <div class="navboxinfo">About Me</div>
+        </a>
+    </div>
+
+    <div class="homenavboxrt">
+        <a href="computinglvl1.html">
+        <div class="navboxphoto">
+            <img src="Assets/L1 Computing.jpg">
+        </div>
+        <div class="navboxinfo">Education</div>
+        </a>
+    </div>
+
+    <div class="homenavboxlt">
+        <a href="workexperience.html">
+            <div class="navboxphoto">
+                <img src="Assets/BHF.png">
+            </div>
+            <div class="navboxinfo">Work Experience</div>
+        </a>
+    </div>
+
+    <div class="homenavboxrt">
+        <a href="certawards.html">
+            <div class="navboxphoto">
+                <img src="Assets/MOSWD.jpg">
+            </div>
+            <div class="navboxinfo">Cetficates and Awards</div>
+        </a>
+    </div>
+    
+    <div class="homenavboxlt">
+        <a href="aircadets.html">
+            <div class="navboxphoto">
+                <img src="Assets/42F.jpg">
+            </div>
+            <div class="navboxinfo">Air Cadets</div>
+        </a>
+    </div>
+
+    <div class="homenavboxrt">
+        <a href="future.html">
+            <div class="navboxphoto">
+                <img src="Assets/Anglian_water.png">
+            </div>
+            <div class="navboxinfo">Future</div>
+        </a>
+    </div>
+
+    <div class="footer">
+        <p>My Email: 449646@edu.cwa.ac.uk<br><br>
+        Last Modified: 10/06/2026</p>
+    </div>
+
+    <!--NavBar-->
+
+    <script>
+        function Menu() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
+</body>
+</html>
